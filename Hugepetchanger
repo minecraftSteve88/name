@@ -1,0 +1,11 @@
+local Window = Library.CreateLib("Huge Pet Changer", "LightTheme")
+
+local Tab = Window:NewTab("Huge Pet")
+
+local Section = Tab:NewSection("Pet To Huge")
+
+Section:NewButton("Change Pet", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
